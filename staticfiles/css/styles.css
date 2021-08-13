@@ -1,0 +1,22 @@
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    cursor:url(https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png), default!important;
+}
+
+a {
+    cursor:url(https://cdn.custom-cursor.com/db/7647/32/meme-pop-cat-pointer.png), pointer!important;
+}
+
+.b1 {
+    /*#background: navy;*/
+    color: springgreen;
+}
+
+.b1:hover {
+    color: mediumseagreen;
+}

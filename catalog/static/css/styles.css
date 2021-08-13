@@ -1,0 +1,48 @@
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    cursor:url(https://cdn.custom-cursor.com/db/7648/32/meme-pop-cat-cursor.png), default!important;
+}
+
+a {
+    cursor:url(https://cdn.custom-cursor.com/db/7647/32/meme-pop-cat-pointer.png), pointer!important;
+}
+
+.b1 {
+    #background: navy;
+    color: springgreen;
+}
+
+.b1:hover {
+    color: mediumseagreen;
+}
+
+ul.errorlist {
+    color: red;
+}
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
